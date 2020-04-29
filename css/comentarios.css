@@ -1,0 +1,29 @@
+
+.imagen{
+   
+    
+    background-position: center center; /*imagen al centro*/
+    background-size: cover ;/*llenar la altura como el ancho*/
+  height: 100vh;
+}
+.uno{
+background-image: url(../img/coronavirus2.jpg);
+}
+.dos{
+    background-image: url(../img/coronavirus3.jpg);
+}
+.tres{
+    background-image: url(../img/coronavirus4.jpg);
+}
+.cuatro{
+    background-image: url(../img/coronavirus5.jpg);
+}
+.cinco{
+    background-image: url(../img/coronavirus6.jpg);
+}
+.seis{
+    background-image: url(../img/coronavirus7.jpg);
+}
+
+
+  

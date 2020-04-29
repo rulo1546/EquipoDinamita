@@ -1,0 +1,30 @@
+*{
+    font-family:"Book Antiqua";
+    font-weight: normal;
+    
+}
+body{
+background:url("ImgMiPaginaWeb/fondo.jpg");
+text-align: center;
+
+}
+h2{
+color: #FE2E64;
+}
+[id="datos"]{
+color: #A9F5A9;
+}
+h3{
+color: #DF7401;	
+}
+p{
+color:black;
+text-align: left;
+margin: 65px 65px;
+}
+h1{
+color: #FF8000;
+}
+a{
+color: #81BEF7;
+}
