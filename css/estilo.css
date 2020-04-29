@@ -1,0 +1,40 @@
+*{
+   font-family:"Book Antiqua";
+   font-weight: normal;
+}
+
+body{
+  background-image: url(k.jpg);
+  color:white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+img{
+
+}
+
+h1{
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+}
+
+h2{
+  font-size: 25px;
+  color: red;
+}
+
+div {
+
+
+
+}
+
+.caja{
+  position: static;
+  top: ;
+  bottom: ;
+  right: ;
+  left: ;
+}
