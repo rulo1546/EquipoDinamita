@@ -1,19 +1,15 @@
 body{
-	background-image:url("../img/android.jpg");
-	background-position: center;
-	background-attachment: fixed;
 	color: white;
+	min-width: 600px;
+	margin: 0px;
 }
 
 .cabecera,.redes{
 	text-align: center;
 	background-color: darkblue;
-	padding-bottom: 20px;
+	padding: 25px;
 }
 
-.redes > a{
-	color: white;
-}
 .redes > a > img{
 	height: 50px;
 	width: 50px;
@@ -24,6 +20,28 @@ body{
 	margin-right: 100px;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	padding: 20px;
+	background-color: black;
+	color: cyan;
+	min-height: 300px;
 	text-align: justify;
-	color: grey;
+}
+
+.acercaDeMi > div > img{
+	height: 250px;
+	width: auto;
+	margin-right: 20px;
+	float: left;
+}
+
+.acercaDeMi{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-image:url("../img/nebulosa.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+a{
+	color: white;
 }
