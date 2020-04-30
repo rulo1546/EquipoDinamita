@@ -1,0 +1,19 @@
+body{
+	background-image:url("../img/android.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.cabecera,.redes{
+	text-align: center;
+	background-color: darkblue;
+}
+
+.redes > a{
+	color: white;
+}
+.redes > a > img{
+	height: 50px;
+	width: 50px;
+}
