@@ -1,6 +1,6 @@
 body{
 	background-image:url("../img/android.jpg");
-	background-size: cover;
+	background-position: center;
 	background-attachment: fixed;
 	color: white;
 }
@@ -8,6 +8,7 @@ body{
 .cabecera,.redes{
 	text-align: center;
 	background-color: darkblue;
+	padding-bottom: 20px;
 }
 
 .redes > a{
@@ -16,4 +17,13 @@ body{
 .redes > a > img{
 	height: 50px;
 	width: 50px;
+}
+
+.acercaDeMi > div{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: justify;
+	color: grey;
 }
