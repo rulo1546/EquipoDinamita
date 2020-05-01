@@ -1,39 +1,32 @@
-*{
-   font-family:"Book Antiqua";
-   font-weight: normal;
-}
-
 body{
   background-image: url(k.jpg);
+  background-size: 500px 500px;
   color:white;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
+  font-family: "arial";
 }
 
 img{
-
+  border-radius: 40px;
+  padding: 20px;
+  border: 10px ;
 }
 
 h1{
   font-size: 40px;
-  color: blue;
+  color: white;
   text-align: center;
 }
 
 h2{
   font-size: 25px;
-  color: red;
-}
-
-div {
-
-
-
+  color: white;
 }
 
 .caja{
-  position: static;
-  top: ;
+  position: center;
+  top: 20px;
   bottom: ;
   right: ;
   left: ;
