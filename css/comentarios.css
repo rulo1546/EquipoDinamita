@@ -1,4 +1,15 @@
 
+.navegacion a {
+
+
+color: white;
+font-size: 2rem;
+text-decoration: none;
+
+}
+
+
+
 .imagen{
    
     
@@ -11,14 +22,42 @@
     background-image: url(../img/coronavirus5.jpg);
 }
 
-
 .dividir{
-display: grid;
-grid-template-columns: 20% 20% 20% 20% 20%;
+
+display: flex;
+justify-content: space-between;
+display: inline-block;
+
 gap: 1.5rem;
-
-
-
 }
+.seccion  {
+  margin-top: 2rem;
+  margin-bottom: 2rem; /*separacion arriba y abajo con el contenedror seleccion*/
+}
+.contenedor{
 
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
   
+  }
+  .site-footer{
+    background-color: #000000;
+    margin: 0;
+    
+    
+    
+    }
+    .seccion{
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      margin:0;
+      
+      }
+      .contenedor-footer{
+        padding: 3rem 0;
+        display: flex;
+        justify-content: space-between;
+    
+    
+    }
