@@ -1,12 +1,13 @@
 *{
     font-family:"Book Antiqua";
     font-weight: normal;
-    
+    text-align: center;
+
 }
 body{
-background:url("ImgMiPaginaWeb/fondo.jpg");
-text-align: center;
-
+background-image: url(../ImgMiPaginaWeb/fondo.png);
+background-attachment: fixed; 
+/*Hola mundo :u*/
 }
 h2{
 color: #FE2E64;
@@ -18,7 +19,7 @@ h3{
 color: #DF7401;	
 }
 p{
-color:black;
+color:#F5DA81;
 text-align: left;
 margin: 65px 65px;
 }
