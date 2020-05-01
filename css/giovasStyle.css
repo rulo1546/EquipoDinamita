@@ -1,0 +1,213 @@
+html{
+
+box-sizing: border-box;
+font-size: 62.5%;   
+/* trabajando con rems */
+
+}
+img{
+   max-width: 20rem;
+background-size: cover;
+width:20rem;
+height:20rem;
+
+
+}
+
+h1{
+
+    color: white;
+}
+h2{
+
+    font-size: 2rem;
+}
+body{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+
+
+}
+
+.centrar p {
+    text-align: center;
+}
+
+.colorlib{
+font-size: 1.6rem;
+
+font-weight: bold;
+
+
+
+}
+/* pie de pagina y encabezado */
+.cont{
+
+    max-width: 120rem;
+    margin:o auto;
+    
+    
+    
+            }
+          
+
+.contenedor{
+
+width: 95%;
+max-width: 120rem;
+margin: 0 auto;
+
+}
+.site-footer{
+background-color: #000000;
+margin: 0;
+
+
+
+}
+.linea{
+    text-decoration: none;
+    color: teal;
+    font-size: 1.7rem;
+}
+.seccion{
+margin-top: 2rem;
+margin-bottom: 2rem;
+margin:0;
+
+}
+.abajo{
+
+margin:0;
+color: white;
+
+}
+
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.contenedor-2{
+  
+  
+    display: flex;
+    justify-content: space-between;
+ 
+
+
+}
+.conte{
+text-align: center;
+
+
+
+}
+
+.navegacion a {
+    color: white;
+    margin:0;
+    text-decoration: none;
+    font-size: 2rem;
+    }
+   
+
+    /* seccion de paginas favoritas */
+.site_header{
+        background-image: url(../imagenesGio/opcion2.jpg);
+        
+        background-position: center center; /*imagen al centro*/
+        background-size: cover ;/*llenar la altura como el ancho*/
+        display: flex;
+    align-items: center;
+        height: 60rem;
+       
+        }
+         
+.seccion-comentario{
+            background-image: url(../imagenesGio/opcion9.jpg);
+        
+            background-position: center center; /*imagen al centro*/
+            background-size: cover ;/*llenar la altura como el ancho*/
+            display: flex;
+            align-items: center;
+            height: 60rem;
+            }
+.distribuir{
+display:  grid;
+grid-template-columns: 20% 20% 20% 20% 20%  ;
+gap: 1.5rem;
+          
+          
+          
+          }
+
+.distribuirlp{
+    display: grid;
+    grid-template-rows: 50% 50% 50%;
+   
+    gap: 1.5rem;
+
+
+
+
+
+}        
+.distribuircomentario {
+            display:  grid;
+            grid-template-columns: 85%;
+            grid-template-rows: 60% 40%  ;
+            gap: 1.5rem;
+                      }
+
+
+
+.distribuir img {
+image-resolution: 100%;
+
+ }         
+
+
+ /* tercera */
+.seccion-dos{
+    background-image: url(../imagenesGio/opcion1.jpg);
+
+    background-position: center center; /*imagen al centro*/
+    background-size: cover ;/*llenar la altura como el ancho*/
+    display: flex;
+    align-items: center;
+    height: 60rem;
+    }
+.boton{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 2rem;
+        color:white;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color:black;
+        border-color:aqua;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 3.5rem;
+        
+        
+        }
+ @media (min-width: 768 px){
+.boton{
+        
+        display: inline-block;
+        flex: 0 0 auto;}
+.contenidop {
+          
+          
+          text-align: center;
+
+
+        }
