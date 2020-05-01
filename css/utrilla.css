@@ -23,11 +23,11 @@ body{
 	padding: 20px;
 	background-color: black;
 	color: cyan;
-	min-height: 300px;
+	min-height: 400px;
 	text-align: justify;
 }
 
-.acercaDeMi > div > img{
+.acercaDeMi > div > p > img{
 	height: 250px;
 	width: auto;
 	margin-right: 20px;
